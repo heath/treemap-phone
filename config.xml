@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.treemap" version="0.0.1">
+    <name>TreeMap</name>
+    <description>
+      mobile app for mapping location and name of trees
+    </description>
+    <author email="heathmatlock@gmail.com" href="http://github.com/heath/treemap-phone">
+      Heath Matlock
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="Fullscreen" value="true" />
+</widget>

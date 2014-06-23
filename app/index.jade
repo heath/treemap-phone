@@ -1,0 +1,20 @@
+doctype html
+html.no-js
+  head
+    meta(charset="utf-8")
+    meta(name="description", content="")
+    meta(name="viewport", content="width=device-width")
+    title Treemap
+
+    link(rel="stylesheet", href="lib/bootstrap/dist/css/bootstrap.css")
+    link(rel="stylesheet", href="styles/app.css")
+
+  body(ng-app="treemap")
+    div(ng-include="'views/main.html'", ng-controller="MainCtrl")
+
+    script(src="lib/cordova.js")
+    script(src="lib/angular/angular.js")
+    script(src="lib/jquery/dist/jquery.js")
+    script(src="lib/bootstrap/dist/js/bootstrap.js")
+    script(src="lib/angular-touch/angular-touch.js")
+    script(src="scripts/app.js")

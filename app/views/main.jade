@@ -1,0 +1,8 @@
+.main
+  fieldset(ng-model="tree")
+    form
+      input.treename(type="text", ng-model="tree.common", placeholder="Common Name")
+      input.treename(type="text", ng-model="tree.binomial", placeholder="Scientific Name")
+    a.btn.btn-lg.btn-success(ng-click='map(tree)')
+      | Map Tree!
+      span.glyphicon.glyphicon-tree-deciduous
