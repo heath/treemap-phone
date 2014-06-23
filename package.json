@@ -2,7 +2,7 @@
   "author": "Heath Matlock",
   "description": "web interface to treemap",
   "license": "ISC",
-  "name": "treemap-web",
+  "name": "treemap-phone",
   "version": "0.0.1",
   "devDependencies": {
     "coffee-script": "^1.7.1",
